@@ -1,0 +1,17 @@
+{
+  "title" : "Ørsted speedtracker",
+  "repository" : "orsted_speedtracker",
+  "colors": {
+    "--primary": "#409ddb",
+    "--accent": "#0000FF",
+    "--bg-primary": "#F3F2F7",
+    "--bg-secondary": "#FFFFFF",
+    "--link": "#FF0000"
+  },
+  "chartColors": {
+    "--graph1": "red",
+    "--graph2": "yellow",
+    "--graph3": "green",
+    "--graph4": "blue"
+  }
+}
