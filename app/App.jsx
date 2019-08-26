@@ -103,7 +103,7 @@ class App extends React.Component {
       loading: true,
     });
 
-    window.history.pushState(null, null, `${this.baseUrl}/${newProfile}`);
+    window.history.pushState(null, null, `${this.baseUrl}/${newProfile}/`);
     window.fetch(`${this.baseUrl}/profiles.json`)
       .then(res => res.json())
       .then((profiles) => {

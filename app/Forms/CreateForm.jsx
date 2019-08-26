@@ -66,7 +66,7 @@ class CreateForm extends React.Component {
 
       this.setState({
         status: 'success',
-        response: `${profileLink}${name}`,
+        response: `${profileLink}${name}/`,
       });
     });
   }
