@@ -181,7 +181,7 @@ export const locationOptions = [
   'ec2-eu-west-3:Chrome',
 ];
 
-export const baseURL = process.env.NODE_ENV === 'production' ? '/adapt_speedtracker' : '';
+export const baseURL = process.env.NODE_ENV === 'production' ? `/${siteSettings.repository}` : '';
 export const createUrl = `https://speedyapi.herokuapp.com/create/adaptdk/${siteSettings.repository}/master?key=kobajers`;
 export const deleteUrl = `https://speedyapi.herokuapp.com/delete/adaptdk/${siteSettings.repository}/master?key=kobajers`;
 export const scheduleUrl = `https://speedyapi.herokuapp.com/v1/test/adaptdk/${siteSettings.repository}/master`;
